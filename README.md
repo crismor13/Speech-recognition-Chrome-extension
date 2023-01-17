@@ -13,4 +13,5 @@ This is a chrome extension that allows users to control the Youtube video playba
 1. Click on the extension start button to activate the speech recognition feature
 2. Give the voice command and the extension will perform the corresponding action. The currently supported voice commands are **start, stop, left** and **right** for play, pause, rewind and forward the Youtube video respectively
 3. Click on the extension stop button to deactivate the speech recognition feature
-```
+
+![icon image](./speak.png)
