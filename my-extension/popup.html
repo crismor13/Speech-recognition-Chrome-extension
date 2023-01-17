@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Speech To Text</title>
+  </head>
+  <body>
+    <div class="some-margin" id="div_language">
+      <h2>Select Language</h2>
+      <select id="select_language" onchange="updateCountry()"></select>
+      <select id="select_dialect"></select>
+    </div>
+    <h2 class="some-margin">Transcript</h2>
+    <div style="border: 1px solid gray; height: 200px; border-radius: 8px;">
+      <span id="final" style="color: white; font-size: medium;"></span>
+      <span id="interim" style="color: white; font-size: medium"></span>
+    </div>
+    <div class="some-margin">
+      <button id="start">Start</button>
+      <button  id="stop">Stop</button>
+      <p id="status" style="display: none; color: white;">Listenting ...</p>
+    </div>
+  </body>
+  <script src="./speechRecognition.js"></script>
+  <script src="./language.js"></script>
+</html>
